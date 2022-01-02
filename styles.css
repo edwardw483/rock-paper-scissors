@@ -36,7 +36,6 @@ img{
     background-color: #ffd300;
     padding: 30px;
 }
-
 .header h1{
     margin: 0px;
     padding: 0px;
@@ -79,7 +78,6 @@ img{
     align-items: center;
     gap: 18px;
 }
-
 .computer{
     display: flex;
     flex-direction: column;
@@ -87,7 +85,6 @@ img{
     align-items: center;
     gap: 18px;
 }
-
 .player img, .computer img{
     width: 120px;
     height: 120px;
@@ -96,7 +93,6 @@ img{
     padding: 16px;
     background-color: #ffea00;
 }
-
 .player p, .computer p{
     margin: 0px;
     font-family: Calibri, 'Trebuchet MS', sans-serif;
@@ -117,7 +113,6 @@ img{
     font-weight: 700;
     transition: ease-out 0.3s;
 }
-
 .playAgain:hover{
     transform: scale(1.1);
 }
