@@ -1,0 +1,40 @@
+@font-face{
+    font-family: Cornerstone;
+    src: url("./fonts/Cornerstone.ttf");
+}
+
+body{
+    margin: 0px;
+}
+
+button{
+    background-color: #ffea00;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 8px;
+    padding: 10px;
+}
+img{
+    height: auto;
+    max-width: 200px;
+}
+
+/* header */
+.header{
+    display: flex;
+    border: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd300;
+    padding: 30px;
+}
+
+.header h1{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cornerstone, Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #302e2f;
+
+}

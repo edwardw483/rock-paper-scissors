@@ -5,12 +5,13 @@ function computerPlay(){
     }else if(rand == 1){
         return "paper";
     }else if(rand == 2){
-        return "scissors"
+        return "scissors";
     }
 }
 
 function playerPlay(){
-    return window.prompt("What move would you like to play?")
+    //return window.prompt("What move would you like to play?");
+    return "rock";
 }
 
 function singleRound(playerSelection, computerSelection){
