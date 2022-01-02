@@ -3,8 +3,13 @@
     src: url("./fonts/Cornerstone.ttf");
 }
 
+html{
+    min-width: 900px;
+}
+
 body{
     margin: 0px;
+    background-color: #FFFF66;
 }
 
 button{
@@ -34,7 +39,71 @@ img{
     margin: 0px;
     padding: 0px;
     font-family: Cornerstone, Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 70px;
     color: #302e2f;
 
+}
+
+/* info and score */
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFF66;
+    gap: 18px;
+    margin: 18px;
+}
+.info h2{
+    color:#302e2f;
+    margin: 0px;
+    font-size: 36px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+.info h3{
+    color: #302e2f;
+    margin: 0px;
+    font-size: 30px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+.moves{
+    display: flex;
+    gap: 100px;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.computer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.player img, .computer img{
+    width: 120px;
+    height: 120px;
+    border: 5px solid black;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #ffea00;
+}
+
+.player p, .computer p{
+    margin: 0px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+/* buttons */
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
