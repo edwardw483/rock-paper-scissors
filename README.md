@@ -1,5 +1,5 @@
 ## Rock Paper Scissors
-The classic game of rock paper scissors with a computer. Created using HTML, CSS, and Javascript. The first player to score 5 points wins.
+The classic game of rock paper scissors with a computer. Created from scratch using HTML, CSS, and Javascript. The first player to score 5 points wins.
 
 ## Credits
 Links to all of the images and fonts used below: <br />
