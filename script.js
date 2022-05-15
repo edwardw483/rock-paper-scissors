@@ -14,10 +14,10 @@ function computerPlay(){
     //update image and return move
     const image = document.querySelector(".moves .computer img");
     if(rand == 0){
-        image.setAttribute("src", "./images/rock.png");
+        image.setAttribute("src", "./images/rock.PNG");
         return "rock";
     }else if(rand == 1){
-        image.setAttribute("src", "./images/paper.png");
+        image.setAttribute("src", "./images/paper.PNG");
         return "paper";
     }else if(rand == 2){
         image.setAttribute("src", "./images/scissors.png");
