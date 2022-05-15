@@ -31,9 +31,9 @@ function playerPlay(e){
     //update image
     const image = document.querySelector(".moves .player img");
     if(this.id == "rock"){
-        image.setAttribute("src", "./images/rock.png");
+        image.setAttribute("src", "./images/rock.PNG");
     }else if(this.id == "paper"){
-        image.setAttribute("src", "./images/paper.png");
+        image.setAttribute("src", "./images/paper.PNG");
     }else if(this.id == "scissors"){
         image.setAttribute("src", "./images/scissors.png");
     }
